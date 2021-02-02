@@ -6,3 +6,5 @@
 
 # AbstractFactoryPattern 抽象工厂
 
+# ObserverPattern 观察者模式
+
