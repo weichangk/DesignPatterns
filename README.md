@@ -8,3 +8,5 @@
 
 # ObserverPattern 观察者模式
 
+# AdapterPattern 适配器模式
+
