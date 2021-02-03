@@ -55,6 +55,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompsitePattern", "Compsite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompsitePattern", "CompsitePattern\CompsitePattern\CompsitePattern.csproj", "{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodPattern", "TemplateMethodPattern", "{7DF4739F-F1FE-4BFA-8E2D-845A4E27BA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern\TemplateMethodPattern.csproj", "{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,10 @@ Global
 		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +154,7 @@ Global
 		{171A49E3-A2EE-45BC-A096-C6522E30BE10} = {CEEBF4B1-17AA-470E-AEB5-FFB892511713}
 		{8B845241-DA6F-4E0D-A84E-A35446DE584F} = {9E69045E-68E9-473D-8D63-4B0D7CE22EA8}
 		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE} = {32B8B794-AE6F-4B0D-B75A-2449D22BA7AD}
+		{663B0B93-8FFB-4B23-9EC3-81E6D00FFBF7} = {7DF4739F-F1FE-4BFA-8E2D-845A4E27BA5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F40D06E-0D6C-4D5D-AF03-A9E2998AB2EA}
