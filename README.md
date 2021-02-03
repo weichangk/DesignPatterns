@@ -13,3 +13,5 @@
 # BuilderPattern 建造者模式
 
 # PrototypePattern 原型模式
+
+# FlyweightPattern 享元模式
