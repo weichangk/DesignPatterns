@@ -15,3 +15,5 @@
 # PrototypePattern 原型模式
 
 # FlyweightPattern 享元模式
+
+# CompsitePattern 组合模式

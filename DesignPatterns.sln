@@ -51,6 +51,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlyweightPattern", "Flyweig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern\FlyweightPattern.csproj", "{8B845241-DA6F-4E0D-A84E-A35446DE584F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompsitePattern", "CompsitePattern", "{32B8B794-AE6F-4B0D-B75A-2449D22BA7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompsitePattern", "CompsitePattern\CompsitePattern\CompsitePattern.csproj", "{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,10 @@ Global
 		{8B845241-DA6F-4E0D-A84E-A35446DE584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B845241-DA6F-4E0D-A84E-A35446DE584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B845241-DA6F-4E0D-A84E-A35446DE584F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +145,7 @@ Global
 		{3B8D8B93-D085-42F2-B2FB-937572B47018} = {E8EF671D-3386-4D55-8450-F7F636B32CB4}
 		{171A49E3-A2EE-45BC-A096-C6522E30BE10} = {CEEBF4B1-17AA-470E-AEB5-FFB892511713}
 		{8B845241-DA6F-4E0D-A84E-A35446DE584F} = {9E69045E-68E9-473D-8D63-4B0D7CE22EA8}
+		{2FEA8603-7D6B-44C0-8D4B-FFA085B6A6AE} = {32B8B794-AE6F-4B0D-B75A-2449D22BA7AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F40D06E-0D6C-4D5D-AF03-A9E2998AB2EA}
