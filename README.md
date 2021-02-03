@@ -12,3 +12,4 @@
 
 # BuilderPattern 建造者模式
 
+# PrototypePattern 原型模式
