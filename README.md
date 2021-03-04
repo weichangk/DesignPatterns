@@ -19,3 +19,5 @@
 # CompsitePattern 组合模式
 
 # TemplateMethodPattern 模板方法
+
+# IteratorPattern 迭代器模式
