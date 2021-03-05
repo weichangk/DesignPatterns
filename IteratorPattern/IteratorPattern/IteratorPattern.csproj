@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Food.cs" />
+    <Compile Include="IEnumerableIEnumerator\MyGenericArrayListYield.cs" />
+    <Compile Include="IEnumerableIEnumerator\MyGenericArrayList.cs" />
+    <Compile Include="IEnumerableIEnumerator\MyArrayList.cs" />
     <Compile Include="Iterator\IIterator.cs" />
     <Compile Include="Iterator\MacDonaldMenuIterator.cs" />
     <Compile Include="Iterator\KFCMenuIterator.cs" />
@@ -49,6 +52,7 @@
     <Compile Include="Menu\KFCMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YieldShow1.cs" />
     <Compile Include="YieldShow.cs" />
   </ItemGroup>
   <ItemGroup>

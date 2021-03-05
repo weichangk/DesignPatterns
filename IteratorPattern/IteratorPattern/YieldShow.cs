@@ -8,14 +8,10 @@ using System.Threading.Tasks;
 namespace IteratorPattern
 {
     /// <summary>
-    /// http://www.cnblogs.com/YamatAmain/p/5016464.html
-    /// 
-    /// 含有yield的函数说明它是一个生成器，而不是普通的函数。当程序运行到yield这一行时，该函数会返回值，并保存当前域的所有变量状态；等到该函数下一次被调用时，会从上一次中断的地方开始执行，一直遇到下一个yield, 程序返回值, 并在此保存当前状态; 如此反复，直到函数正常执行完成。
-    /// 
-    /// 迭代器模式是设计模式中行为模式(behavioral pattern)的一个例子，他是一种简化对象间通讯的模式，也是一种非常容易理解和使用的模式。简单来说，迭代器模式使得你能够获取到序列中的所有元素 而不用关心是其类型是array，list，linked list或者是其他什么序列结构。这一点使得能够非常高效的构建数据处理通道(data pipeline)--即数据能够进入处理通道，进行一系列的变换，或者过滤，然后得到结果。事实上，这正是LINQ的核心模式。
-
-
-    /// 在.NET中，迭代器模式被IEnumerator和IEnumerable及其对应的泛型接口所封装。如果一个类实现了IEnumerable接 口，那么就能够被迭代；调用GetEnumerator方法将返回IEnumerator接口的实现，它就是迭代器本身。迭代器类似数据库中的游标，他是 数据序列中的一个位置记录。迭代器只能向前移动，同一数据序列中可以有多个迭代器同时对数据进行操作。
+    /// 含有yield的函数说明它是一个生成器，而不是普通的函数。
+    /// 当程序运行到yield这一行时，该函数会返回值，并保存当前域的所有变量状态；
+    /// 等到该函数下一次被调用时，会从上一次中断的地方开始执行，一直遇到下一个yield, 程序返回值, 并在此保存当前状态; 
+    /// 如此反复，直到函数正常执行完成。
     /// </summary>
     public class YieldShow
     {
@@ -49,6 +45,12 @@ namespace IteratorPattern
         /// </summary>
         public void Show()
         {
+            //直接迭代
+            //foreach (var item in this.CreateEnumerable())
+            //{
+            //}
+
+            //模拟foreach迭代
             IEnumerable<int> iterable = this.CreateEnumerable();//1 不会直接执行
             //IEnumerator iterator = iterable.GetEnumerator();
             IEnumerator<int> iterator = iterable.GetEnumerator();
@@ -65,6 +67,7 @@ namespace IteratorPattern
                 Console.WriteLine("获取当前值……");
                 Console.WriteLine("获取到的当前值为{0}", iterator.Current);
             }
+
             Console.ReadKey();
         }
     }

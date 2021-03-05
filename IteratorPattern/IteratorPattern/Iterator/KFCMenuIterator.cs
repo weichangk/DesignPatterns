@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace IteratorPattern.Menu
 {
     /// <summary>
-    /// 新的集合  实现了IIterator接口
+    /// 新的集合  实现了自定义迭代接口IIterator
     /// </summary>
     public class KFCMenuIterator : IIterator<Food>
     {
